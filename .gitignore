@@ -1,0 +1,60 @@
+# OS
+.DS_Store
+Icon?
+Thumbs.db
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js
+.next/
+**/.next/
+out/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment files (keep examples)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+!.env.example
+
+# Editor/project files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Vercel/Turbo
+.vercel/
+**/.vercel/
+.turbo/
+
+# Coverage
+coverage/
+
+# Caches
+.cache/
+.eslintcache
+*.tsbuildinfo
+**/*.tsbuildinfo
+
+# Prisma local DB (if using SQLite locally)
+prisma/dev.db
+prisma/dev.db-journal
+
+# Supabase local config
+.supabase/.vercel
